@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((10#DECIMAL))
+ehco 'obase=16; $DECIMAL' | bc
